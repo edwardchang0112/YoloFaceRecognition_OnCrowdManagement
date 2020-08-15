@@ -4,6 +4,8 @@ According to the COVID-19, this project try to develop a crowd management system
 
 ## Steps
 
+Since the yolo model(yolov3-wider_16000.weights) used in this project is too large to upload, you can try to download from https://drive.google.com/drive/folders/1oj9p04mPjbbCbq1qSK8ChMjOhMLMpk42?usp=sharing
+
 1. Create a "Known_people", and put some images with faces.
 2. Run "Face_encoding.py", then a excel file will be produced, which stores the features of the images that you used in step 1
 3. Run "main_web.py" to start a flusk based web. (For now, only the "Video Streaming" work, please try on this) Then you will see the streamimg result with face detection and ecognition, you can also feed a clip video by modify the self.cap = cv2.VideoCapture('YOURPATH/Video.mp4') in "Face_detectionAndRecognition.py", the following shows you the example.

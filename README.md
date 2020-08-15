@@ -10,13 +10,13 @@ Since the yolo model(yolov3-wider_16000.weights) used in this project is too lar
 2. Run "Face_encoding.py", then a excel file will be produced, which stores the features of the images that you used in step 1
 3. Run "main_web.py" to start a flusk based web. (For now, only the "Video Streaming" work, please try on this) Then you will see the streamimg result with face detection and ecognition, you can also feed a clip video by modify the self.cap = cv2.VideoCapture('YOURPATH/Video.mp4') in "Face_detectionAndRecognition.py", the following shows you the example.
 
-![image]()
+![image](https://github.com/edwardchang0112/YoloFaceRecognition_OnCrowManagement/blob/master/Demo01.png)
 
 ## Real case
 
 We try to combine our multispectral camera to make this application can also work in a dark environment, the following shows you a real example that we capture the streaming frame in a street with dark environment.
 
-![image]()
+![image](https://github.com/edwardchang0112/YoloFaceRecognition_OnCrowManagement/blob/master/Demo02.png)
 
 ## Future work
 

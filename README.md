@@ -14,7 +14,7 @@ Since the yolo model(yolov3-wider_16000.weights) used in this project is too lar
 
 ## Real case
 
-We try to combine our multispectral camera to make this application can also work in a dark environment, the following shows you a real example that we capture the streaming frame in a street with dark environment.
+We tried to combine our multispectral camera to make this application can also work in a dark environment, the following figure shows you a real example that we captured the streaming frame of a street scene in dark environment.
 
 ![image](https://github.com/edwardchang0112/YoloFaceRecognition_OnCrowManagement/blob/master/Demo02.png)
 
@@ -22,4 +22,4 @@ We try to combine our multispectral camera to make this application can also wor
 
 The backend system, like Database, will be involved, and distributed computing structure as well
 
-### All of the materials in this project provide you a basic example structure, all data/path used in this project need to be change to fit your applications.
+### All of the materials in this project provide you a basic example structure, all data/path used in this project need to be changed to fit your applications.
